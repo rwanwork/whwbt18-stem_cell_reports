@@ -1,0 +1,319 @@
+combinations:
+  combo1:
+    - MPC_1A
+    - MPC_1B
+    - MPC_2A
+    - MPC_2B
+    - MPC_MT_1A
+    - MPC_MT_1B
+    - MPC_MT_2A
+    - MPC_MT_2B
+  combo2:
+    - MPC_1
+    - MPC_2
+    - MPC_MT_1
+    - MPC_MT_2
+  combo3:
+    - ASC_1
+    - ASC_2
+    - ASC_SB_1
+    - ASC_SB_2
+    - MPC_1A
+    - MPC_1B
+    - MPC_2A
+    - MPC_2B
+    - MPC_MT_1A
+    - MPC_MT_1B
+    - MPC_MT_2A
+    - MPC_MT_2B
+    - QSC_1
+    - QSC_2
+  combo4:
+    - ASC_1
+    - ASC_2
+    - ASC_SB_1
+    - ASC_SB_2
+    - MPC_1
+    - MPC_2
+    - MPC_MT_1
+    - MPC_MT_2
+    - QSC_1
+    - QSC_2
+  combo5:
+    - ASC_1
+    - ASC_2
+    - ASC_SB_1
+    - ASC_SB_2
+    - MPC_1A
+    - MPC_1B
+    - MPC_2A
+    - MPC_2B
+    - MPC_MT_1A
+    - MPC_MT_1B
+    - MPC_MT_2A
+    - MPC_MT_2B
+    - QSC_1
+    - QSC_2
+  combo6:
+    - ASC_1
+    - ASC_2
+    - ASC_SB_1
+    - ASC_SB_2
+    - MPC_1
+    - MPC_2
+    - MPC_MT_1
+    - MPC_MT_2
+    - QSC_1
+    - QSC_2
+  combo7:
+    - ASC_1
+    - ASC_2
+    - ASC_SB_1
+    - ASC_SB_2
+    - Chon_1
+    - Chon_2
+    - CMC
+    - ESC_A
+    - ESC_B
+    - HDF_1
+    - HDF_2
+    - HEP_1
+    - HEP_2
+    - HSC
+    - KiEC_1
+    - KiEC_2
+    - MB_1
+    - MB_2
+    - MCSC_1
+    - MCSC_2
+    - MPC_1A
+    - MPC_1B
+    - MPC_2A
+    - MPC_2B
+    - MPC_MT_1A
+    - MPC_MT_1B
+    - MPC_MT_2A
+    - MPC_MT_2B
+    - MT_1
+    - MT_2
+    - NSC_A
+    - NSC_B
+    - NSC_C
+    - QSC_1
+    - QSC_2
+    - SC_1
+    - SC_2
+    - SMC
+
+samples:
+  MPC_1A:
+    fpkm:  264767
+    summary:  270855
+    readprefix:  Control1A
+    condition:  "MPC"
+  MPC_1B:
+    fpkm:  264768
+    summary:  270856
+    readprefix:  Control1B
+    condition:  "MPC"
+  MPC_2A:
+    fpkm:  264769
+    summary:  270857
+    readprefix:  Control2A
+    condition:  "MPC"
+  MPC_2B:
+    fpkm:  264770
+    summary:  270858
+    readprefix:  Control2B
+    condition:  "MPC"
+  MPC_1:
+    fpkm:  264771
+    summary:  270859
+    readprefix:  Control1
+    condition:  "MPC Concatenated"
+  MPC_2:
+    fpkm:  264772
+    summary:  270860
+    readprefix:  Control2
+    condition:  "MPC Concatenated"
+  MPC_MT_1A:
+    fpkm:  264773
+    summary:  270861
+    readprefix:  Control1A_diff
+    condition:  "MPC_MT"
+  MPC_MT_1B:
+    fpkm:  264774
+    summary:  270862
+    readprefix:  Control1B_diff
+    condition:  "MPC_MT"
+  MPC_MT_2A:
+    fpkm:  264775
+    summary:  270863
+    readprefix:  Control2A_diff
+    condition:  "MPC_MT"
+  MPC_MT_2B:
+    fpkm:  264776
+    summary:  270864
+    readprefix:  Control2B_diff
+    condition:  "MPC_MT"
+  MPC_MT_1:
+    fpkm:  264777
+    summary:  270865
+    readprefix:  Control1_diff
+    condition:  "MPC_MT Concatenated"
+  MPC_MT_2:
+    fpkm:  264778
+    summary:  270866
+    readprefix:  Control2_diff
+    condition:  "MPC_MT Concatenated"
+  HEP_1:
+    fpkm:  264779
+    summary:  270968
+    readprefix:  SRR1542476
+    condition:  "Public data"
+  HEP_2:
+    fpkm:  264780
+    summary:  270969
+    readprefix:  SRR1542481
+    condition:  "Public data"
+  CMC:
+    fpkm:  264781
+    summary:  270970
+    readprefix:  SRR3192364
+    condition:  "Public data"
+  SMC:
+    fpkm:  264782
+    summary:  270971
+    readprefix:  SRR3192366
+    condition:  "Public data"
+  HSC:
+    fpkm:  264783
+    summary:  270972
+    readprefix:  SRR3192523
+    condition:  "Public data"
+  SC_1:
+    fpkm:  264784
+    summary:  270973
+    readprefix:  SRR3192524
+    condition:  "Public data"
+  SC_2:
+    fpkm:  264785
+    summary:  270974
+    readprefix:  SRR3192525
+    condition:  "Public data"
+  Chon_1:
+    fpkm:  264786
+    summary:  270975
+    readprefix:  SRR3192535
+    condition:  "Public data"
+  Chon_2:
+    fpkm:  264787
+    summary:  270976
+    readprefix:  SRR3192536
+    condition:  "Public data"
+  HDF_1:
+    fpkm:  264788
+    summary:  270977
+    readprefix:  SRR3192539
+    condition:  "Public data"
+  HDF_2:
+    fpkm:  264789
+    summary:  270978
+    readprefix:  SRR3192540
+    condition:  "Public data"
+  KiEC_1:
+    fpkm:  264790
+    summary:  270979
+    readprefix:  SRR3192604
+    condition:  "Public data"
+  KiEC_2:
+    fpkm:  264791
+    summary:  270980
+    readprefix:  SRR3192605
+    condition:  "Public data"
+  ESC_B:
+    fpkm:  264792
+    summary:  270981
+    readprefix:  SRR3192608
+    condition:  "Public data"
+  ESC_A:
+    fpkm:  264793
+    summary:  270982
+    readprefix:  SRR3192609
+    condition:  "Public data"
+  MB_1:
+    fpkm:  264794
+    summary:  270983
+    readprefix:  SRR3192610
+    condition:  "Public data"
+  MB_2:
+    fpkm:  264795
+    summary:  270984
+    readprefix:  SRR3192611
+    condition:  "Public data"
+  MT_1:
+    fpkm:  264796
+    summary:  270985
+    readprefix:  SRR3192673
+    condition:  "Public data"
+  MT_2:
+    fpkm:  264797
+    summary:  270986
+    readprefix:  SRR3192674
+    condition:  "Public data"
+  MCSC_1:
+    fpkm:  264798
+    summary:  270987
+    readprefix:  SRR5048183
+    condition:  "Public data"
+  MCSC_2:
+    fpkm:  264799
+    summary:  270988
+    readprefix:  SRR5048184
+    condition:  "Public data"
+  NSC_A:
+    fpkm:  264800
+    summary:  270989
+    readprefix:  SRR5164629
+    condition:  "Public data"
+  NSC_B:
+    fpkm:  264801
+    summary:  270990
+    readprefix:  SRR5164630
+    condition:  "Public data"
+  NSC_C:
+    fpkm:  264802
+    summary:  270991
+    readprefix:  SRR5164631
+    condition:  "Public data"
+  QSC_1:
+    fpkm:  264803
+    summary:  270804
+    readprefix:  ERR975344
+    condition:  "QSC"
+  QSC_2:
+    fpkm:  264804
+    summary:  270805
+    readprefix:  ERR975345
+    condition:  "QSC"
+  ASC_1:
+    fpkm:  264805
+    summary:  270806
+    readprefix:  ERR975346
+    condition:  "ASC"
+  ASC_2:
+    fpkm:  264806
+    summary:  270807
+    readprefix:  ERR975347
+    condition:  "ASC"
+  ASC_SB_1:
+    fpkm:  264807
+    summary:  270808
+    readprefix:  ERR975348
+    condition:  "ASC_SB"
+  ASC_SB_2:
+    fpkm:  264808
+    summary:  270809
+    readprefix:  ERR975349
+    condition:  "ASC_SB"
+    
