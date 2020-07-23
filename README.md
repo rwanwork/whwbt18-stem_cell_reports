@@ -1,6 +1,14 @@
 Stem Cell Reports 2018 Workflow
 ===============================
 
+Introduction
+------------
+
+This repository, **scr2018**, consists of a set of programs for performing the analysis for this manuscript:
+
+    E. van der Wal, P. Herrero-Hernandez, R. Wan, M Broeders, S. L M In 't Groen, T. J. M. van Gestel, W. F. J. van IJcken, T. H. Cheung, A. T. van der Ploeg, G. J. Schaaf, W. W. M. Pim Pijnappel.  Large-Scale Expansion of Human iPSC-Derived Skeletal Muscle Cells for Disease Modeling and Cell-Based Therapeutic Strategies, 10(6), pg. 1975 - 1990, Stem Cell Reports, 2018.
+
+
 Overview
 --------
 
